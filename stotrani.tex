@@ -1,0 +1,51 @@
+\documentclass[twoside,a5paper]{report}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
+  \fancyhf{}
+  \fancyfoot[RO]{\vfootline\hskip\linepagesep\thepage}
+  \fancyfoot[LE]{\thepage\hskip\linepagesep\vfootline}
+  \fancyhead[RO]{Sanskrit}
+  \fancyhead[LE]{Stotrani}
+  \renewcommand\headrulewidth{1pt}
+  \fancypagestyle{plain}{%
+    \fancyhf{}
+    \fancyfoot[RO]{\vfootline\hskip\linepagesep\thepage}
+    \fancyfoot[LE]{\thepage\hskip\linepagesep\vfootline}
+    \renewcommand\headrulewidth{0pt}
+  }
+  \newskip\linepagesep \linepagesep 5pt\relax
+  \renewcommand\footrulewidth{0.5pt}
+  \def\vfootline{%
+    \begingroup\color{blue}\rule[-990pt]{20pt}{1000pt}\endgroup}
+\usepackage{lipsum}
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+% Devanagari Related Packages
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\newfontfamily\sanskrit[Script=Devanagari]{Siddhanta}
+\newfontfamily\chandas[Script=Devanagari]{Siddhanta}
+
+\newcommand*\NewPage{\newpage\null\thispagestyle{empty}\newpage}
+
+\pagestyle{fancy}
+\title{\Huge \sanskrit संस्कृत स्तोत्रानि}
+\author{\small \sanskrit सङ्ग्रहकारः - गिरिधर कन्दाचार्}
+\renewcommand*\contentsname{\sanskrit {विशय सूचि}}
+
+\begin{document}
+\maketitle
+\NewPage
+\pagenumbering{roman}
+\tableofcontents
+\pagenumbering{arabic}
+
+\chapter{\color{orange}\sanskrit श्री शिव स्तोत्रानि}
+\input{./Chapters/chapter1}
+
+\chapter{\color{orange}\sanskrit श्री विश्णु स्तोत्रानि}
+\input{./Chapters/chapter2}
+
+\end{document}

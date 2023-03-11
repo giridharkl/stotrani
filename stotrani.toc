@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}\color {orange}\sanskrit श्री शिव स्तोत्रानि}{2}{}%
+\contentsline {section}{\numberline {1.1}\sanskrit काशी विश्वनाथ स्तोत्रम्}{2}{}%
+\contentsline {section}{\numberline {1.2}\sanskrit द्वादश ज्योतिर्लिङ्ग स्तोत्रम् }{3}{}%
+\contentsline {section}{\numberline {1.3}\sanskrit निर्वाण अष्टकम् }{4}{}%
+\contentsline {section}{\numberline {1.4}\sanskrit श्रीशिवाष्टकं }{5}{}%
+\contentsline {section}{\numberline {1.5}\sanskrit दारिद्र्य दहन शिवस्तोत्रम् }{6}{}%
+\contentsline {chapter}{\numberline {2}\color {orange}\sanskrit श्री विश्णु स्तोत्रानि}{8}{}%
+\contentsline {section}{\numberline {2.1}\color {blue}\sanskrit नारायणकवचं सार्थ}{8}{}%
+\contentsline {section}{\numberline {2.2}\sanskrit द्वादश स्तुति}{25}{}%
+\contentsline {subsection}{\numberline {2.2.1}\sanskrit प्रथमो अध्याय}{25}{}%
+\contentsline {subsection}{\numberline {2.2.2}\sanskrit द्वितियो अध्याय}{26}{}%
+\contentsline {subsection}{\numberline {2.2.3}\sanskrit त्रुतियो अध्याय}{27}{}%
+\contentsline {subsection}{\numberline {2.2.4}\sanskrit चतुर्थो अध्याय}{28}{}%
+\contentsline {subsection}{\numberline {2.2.5}\sanskrit पञ्चमो अध्याय}{29}{}%
+\contentsline {subsection}{\numberline {2.2.6}\sanskrit शश्टमो अध्याय}{30}{}%
+\contentsline {subsection}{\numberline {2.2.7}\sanskrit अश्टमो अध्याय}{31}{}%
+\contentsline {subsection}{\numberline {2.2.8}\sanskrit नवमो अध्याय}{32}{}%
+\contentsline {subsection}{\numberline {2.2.9}\sanskrit दशमो अध्याय}{33}{}%
+\contentsline {subsection}{\numberline {2.2.10}\sanskrit एकदशो अध्याय}{34}{}%
+\contentsline {subsection}{\numberline {2.2.11}\sanskrit द्वादशो अध्याय}{35}{}%
