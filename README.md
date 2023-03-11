@@ -1,0 +1,2 @@
+# stotrani
+Sanskrit Slokas
