@@ -24,9 +24,11 @@
 \usepackage[utf8]{inputenc}
 % Devanagari Related Packages
 \usepackage{fontspec}
+\usepackage{setspace}
 \usepackage[english]{babel}
 \newfontfamily\sanskrit[Script=Devanagari]{Siddhanta}
 \newfontfamily\chandas[Script=Devanagari]{Siddhanta}
+
 
 \newcommand*\NewPage{\newpage\null\thispagestyle{empty}\newpage}
 
@@ -35,13 +37,15 @@
 \author{\small \sanskrit सङ्ग्रहकारः - गिरिधर कन्दाचार्}
 \renewcommand*\contentsname{\sanskrit {विशय सूचि}}
 
+
 \begin{document}
+\renewcommand{\chaptername}{\Huge \color{blue}\sanskrit अध्याय}
 \maketitle
 \NewPage
 \pagenumbering{roman}
 \tableofcontents
 \pagenumbering{arabic}
-
+\setstretch{1.25} %line spacing
 \chapter{\color{orange}\sanskrit श्री शिव स्तोत्रानि }
 \input{./Chapters/chapter1}
 
