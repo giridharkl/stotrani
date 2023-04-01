@@ -21,6 +21,7 @@
     \begingroup\color{blue}\rule[-990pt]{20pt}{1000pt}\endgroup}
 \usepackage{lipsum}
 % This assumes your files are encoded as UTF8
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
 \usepackage[utf8]{inputenc}
 % Devanagari Related Packages
 \usepackage{fontspec}
@@ -28,27 +29,32 @@
 \usepackage[english]{babel}
 \newfontfamily\sanskrit[Script=Devanagari]{Siddhanta}
 \newfontfamily\chandas[Script=Devanagari]{Siddhanta}
+\newfontfamily\adishila[Script=Devanagari]{AdishilaVedic}
+\newfontfamily\sanskritN[Script=Devanagari]{Sanskrit 2003}
 
 
 \newcommand*\NewPage{\newpage\null\thispagestyle{empty}\newpage}
 
 \pagestyle{fancy}
-\title{\Huge \sanskrit संस्कृत स्तोत्रानि}
+\title{\Huge \sanskritN संस्कृत स्तोत्रानि}
 \author{\small \sanskrit सङ्ग्रहकारः - गिरिधर कन्दाचार्}
 \renewcommand*\contentsname{\sanskrit {विशय सूचि}}
 
 
 \begin{document}
-\renewcommand{\chaptername}{\Huge \color{blue}\sanskrit अध्याय}
+\renewcommand{\chaptername}{\Huge \color{blue}\sanskritN अध्याय}
+\renewcommand{\partname}{\color{darkgreen}\sanskritN विभाग}
 \maketitle
 \NewPage
 \pagenumbering{roman}
 \tableofcontents
 \pagenumbering{arabic}
 \setstretch{1.25} %line spacing
+\part{\sanskrit श्री शिव स्तोत्रानि}
 \chapter{\color{orange}\sanskrit श्री शिव स्तोत्रानि }
 \input{./Chapters/chapter1}
 
+\part{\sanskrit श्री विश्णु स्तोत्रानि}
 \chapter{\color{orange}\sanskrit श्री विश्णु स्तोत्रानि }
 \input{./Chapters/chapter2}
 
